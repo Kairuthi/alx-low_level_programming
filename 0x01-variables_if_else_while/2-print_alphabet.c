@@ -1,17 +1,17 @@
-#include <stdio.h>
-#include <ctype.h>
+#include<stdio.h>
+
 /**
- * main - entry point
- * Description: to print out the alphabet
- * Return: 0
+ *  main - prints the alphabet in lowercase,
+ *  followed by a new line
+ *  Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alphabet;
+	char ch;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(alphabet);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
